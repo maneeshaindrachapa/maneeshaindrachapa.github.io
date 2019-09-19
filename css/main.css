@@ -2662,3 +2662,9 @@ i:hover{
 .projects-btn:hover{
   color:#f44a40;
 }
+.submit-btn{
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
+}

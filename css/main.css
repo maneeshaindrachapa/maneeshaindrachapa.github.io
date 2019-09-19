@@ -2674,3 +2674,9 @@ i:hover{
 .talk-btn:hover{
   background: #FFF !important;
 }
+.main-pic{
+  transition: all .5s ease-in-out;
+}
+.main-pic:hover{
+  transform: scale(0.9);
+}

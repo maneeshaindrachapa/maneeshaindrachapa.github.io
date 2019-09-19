@@ -2653,3 +2653,12 @@ i:hover{
   margin-left: auto;
   margin-right: auto;
 }
+.shadow-left{
+  box-shadow: 5px 5px -3px grey;
+}
+.projects-btn{
+  color: #FFF;
+}
+.projects-btn:hover{
+  color:#f44a40;
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://maneeshaindrachapa.github.io/sitemap.xml
+Host: https://maneeshaindrachapa.github.io

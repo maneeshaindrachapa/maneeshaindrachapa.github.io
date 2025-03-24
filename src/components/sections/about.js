@@ -128,19 +128,19 @@ const About = () => {
 
   const skills = [
     'Java/J2EE',
+    'Go',
     'MySQL',
-    'Python',
-    'Angular',
+    'React',
     'Node.js',
     'Typescript',
-    'PHP',
-    'Ionic',
+    'Javascript',
+    'React Native',
   ];
   const interests = [
-    'Programming',
-    'Machine Learning',
+    'Intrastrucutre as Service (IaaS)/ Terraform',
+    'AWS and Azure cloud services',
     'Identity Access and Management',
-    'Deep Learning',
+    'Distributed Systems',
     'Data Analytics',
   ];
 
@@ -152,17 +152,27 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hi! I'm Maneesha Indrachapa and I enjoy programming and learning new technologies. My
-              interest in programming started back in 2015 when I decided to pursue my
-              BSc.(Engineering) in{' '}
-              <strong>Computer Science and Engineering in University of Moratuwa</strong>
+              Hi! I'm Maneesha Indrachapa I am a passionate Software Engineer with expertise in
+              identity and access management, cloud technologies, and backend development.
+              Currently, I work at <strong>CARIAD SE (Volkswagen Group</strong>), contributing to
+              the Volkswagen IdentityKit and Vehicle Activation Projects which manages
+              authentication for millions of users across multiple brands.
             </p>
-
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://arimaclanka.com/">Arimac</a> and {' '}
-              <a href="https://codegen.co.uk/">CodeGen</a>. My
-              main focus these days is building highly scalable, security oriented Identity access and managment solutions at <a href="https://wso2.com/">WSO2</a>.
+              I hold an{' '}
+              <strong>M.Sc. in Big Data Analytics from Robert Gordon University, UK</strong>, and a{' '}
+              <strong>
+                B.Sc. in Computer Science and Engineering from the University of Moratuwa, Sri
+                Lanka.
+              </strong>{' '}
+              My career journey spans roles at <a href="https://wso2.com/">WSO2</a>, and{' '}
+              <a href="https://codegen.co.uk/">CodeGen</a>, where I have built and optimized
+              scalable applications using Java, Go, and cloud-native technologies.
+            </p>
+            <p>
+              I am driven by innovation and the challenge of solving complex engineering problems.
+              Always eager to learn and adapt, I strive to enhance my skills while making meaningful
+              contributions to the tech landscape.
             </p>
 
             {/* <p>
@@ -181,7 +191,7 @@ const About = () => {
             {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
           </ul>
           <div>
-            <p style={{marginTop:'2vh'}}>These are the areas I'm interested in learning:</p>
+            <p style={{ marginTop: '2vh' }}>These are the areas I'm interested in learning:</p>
           </div>
 
           <ul className="skills-list">

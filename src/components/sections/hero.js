@@ -68,19 +68,20 @@ const Hero = () => {
   const four = (
     <>
       <p style={{ marginTop: '3vh' }}>
-        I’m an enthusiastic engineering graduate from the{' '}
+        I’m an enthusiastic software engineer who holds a B.Sc from{' '}
         <a href="http://www.cse.mrt.ac.lk/" target="_blank" rel="noreferrer">
           Computer Science and Engineering department of University of Moratuwa.
+        </a>{' '}
+        and M.Sc in Big Data analytics from{' '}
+        <a href="hhttps://www.rgu.ac.uk/" target="_blank" rel="noreferrer">
+          Robert Gordon University,UK
         </a>
         Aspires to work in the field of computer science by providing quality services to the
         clients while enhancing my skills and competencies to suit the ever developing world.
-        <br /> Currently, I’m focused on <strong>Identity access and managment</strong> in{' '}
-        <a href="https://wso2.com/" target="_blank" rel="noreferrer">
-          WSO2&nbsp;
-        </a>
-        and reading for Masters in Big Data analytics in{' '}
-        <a href="hhttps://www.rgu.ac.uk/" target="_blank" rel="noreferrer">
-          Robert Gordon University,UK
+        <br /> Currently, I’m focused on{' '}
+        <strong>Cloud native solutions and Identity access and managment</strong> in{' '}
+        <a href="https://www.volkswagen-group.com/en/cariad-16008" target="_blank" rel="noreferrer">
+          CARIAD SE - Volkswagen Group&nbsp;
         </a>
         .
       </p>
